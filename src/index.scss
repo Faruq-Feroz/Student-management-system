@@ -43,7 +43,7 @@ a:hover {
     height: 40px;
     padding-left: 10px;
     width: auto;
-    color: $white; /* Keep input text color white by default */
+    color: $white !important;
 
     transition: background-color 0.3s;
 
@@ -51,7 +51,7 @@ a:hover {
         background-color: $tertiary-color;
         outline: none;
         border-color: $secondary-color;
-        color: $black; /* Change text color to black while typing */
+        color: $black !important;
     }
 }
 
